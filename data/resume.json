@@ -1,0 +1,108 @@
+{
+    "firstName": "Dmitri",
+    "lastName": "Melnikov",
+    "email": "dmitri807@gmail.com",
+    "whoami": "Software Engineer",
+    "education": [
+        {
+            "from": "September 2009",
+            "until": "March 2012",
+            "university": "University of Tartu",
+            "logo": "ut.png",
+            "url": "http://www.ut.ee/en",
+            "degree": "Master's degree in Computer Science",
+            "thesis": "Predicting paid service adoption in a very large social network"
+        },
+        {
+            "from": "September 2010",
+            "until": "January 2011",
+            "university": "Université Joseph Fourier",
+            "logo": "ujf.jpg",
+            "url": "https://www.ujf-grenoble.fr/?language=en",
+            "degree": "AI and the Web track, MoSIG programme"
+        },
+        {
+            "from": "September 2006",
+            "until": "June 2009",
+            "university": "University of Tartu",
+            "logo": "ut.png",
+            "url": "http://www.ut.ee/en",
+            "degree": "Bachelor's degree in Computer Science"
+        }
+    ],
+    "work": [
+        {
+            "from": "October 2013",
+            "until": "August 2015",
+            "company": "CLIQZ",
+            "logo": "cliqz.png",
+            "url": "https://cliqz.com/en",
+            "location": "Munich, Germany",
+            "role": "Software Engineer",
+            "description": "Scalable infrastructure development using Python, ElasticSearch, Redis and AWS ★ MapReduce jobs for processing and analyzing huge datasets ★ Application of information retrieval methods for building general-purpose search engine ★ Firefox extension development in JavaScript ★ Design and implementation of internal tools for testing and data manipulation ★ Low-level work in C++ on an internally used highly optimized key-value store."
+        },
+        {
+            "from": "May 2011",
+            "until": "October 2012",
+            "company": "STACC",
+            "logo": "stacc.png",
+            "url": "http://www.stacc.ee",
+            "location": "Tartu, Estonia",
+            "role": "Researcher",
+            "description": "Analysis of a very large social network ★ Application of machine learning methods to marketing campaign optimization ★ Data analysis algorithms implementation"
+        },
+        {
+            "from": "June 2010",
+            "until": "September 2010",
+            "company": "SIP Communicator",
+            "logo": "gsoc.jpg",
+            "url": "https://jitsi.org/index.php/Development/TeamAndContributors#gsoc10",
+            "location": "Remote",
+            "role": "Java Developer",
+            "description": "Implementation of password storage and basic call recording functionality"
+        },
+        {
+            "from": "March 2010",
+            "until": "June 2010",
+            "company": "STACC",
+            "logo": "stacc.png",
+            "url": "http://www.stacc.ee",
+            "location": "Tartu, Estonia",
+            "role": "Programmer",
+            "description": "Development of information extraction and text analysis software"
+        },
+        {
+            "from": "June 2008",
+            "until": "March 2010",
+            "company": "AS Webmedia",
+            "logo": "webmedia.png",
+            "url": "http://webmedia.ee",
+            "location": "Tartu, Estonia",
+            "role": "Java Developer",
+            "description": "Information systems development in a large team for EMT, the biggest mobile phone operator in Estonia ★ Alfresco-based document management system for the Estonian Ministry of the Interior"
+        },
+        {
+            "from": "July 2007",
+            "until": "September 2007",
+            "company": "AS Cybernetica",
+            "logo": "cyber.png",
+            "url": "http://cyber.ee",
+            "location": "Tallinn, Estonia",
+            "role": "Programmer",
+            "description": "Development and maintenance of documentation and user management systems for internal use"
+        }
+    ],
+    "publications": [
+        {
+            "title": "Combining Propensity and Influence Models for Product Adoption Prediction",
+            "authors": "Ilya Verenich, Riivo Kikas, Marlon Dumas, Dmitri Melnikov",
+            "url": "http://kodu.ut.ee/~dumas/pubs/asonam2015ProductAdoption.pdf",
+            "date": "November 2015",
+            "venue": "ASONAM'15"
+        }
+    ],
+    "skills": {
+        "languages": ["Python", "C", "C++", "Java", "Javascript", "R", "Go", "Shell", "Haskell"],
+        "github": "https://github.com/dmitrime"
+    }
+}
