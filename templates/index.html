@@ -25,12 +25,16 @@
                     <li><a href="#edu">Education</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#pubs">Publications</a></li>
+                    <li><a href="{{ github }}" target="_blank">Github</a></li>
+                    <li><a href="{{ linkedin }}" target="_blank">LinkedIn</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#intro">About</a></li>
                     <li><a href="#edu">Education</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#pubs">Publications</a></li>
+                    <li><a href="{{ github }}" target="_blank">Github</a></li>
+                    <li><a href="{{ linkedin }}" target="_blank">LinkedIn</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
@@ -49,12 +53,12 @@
         <h3 class="text_hh">
             <span><b> {{ whoami }} </b></span> 
         </h3>
-        <!--<img style="border-radius: 50%; width: 250px; height: 250px;" src="{{ url_for('static', filename='img/me.png') }}">-->
         <p>
             {% for l in skills.languages %}
-                <div class="chip"> {{ l }} </div>
+                <div class="chip blue-text white"> {{ l }} </div>
             {% endfor %}
         </p>
+        <p>
     </div>
     </div>
 </div>

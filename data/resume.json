@@ -3,6 +3,8 @@
     "lastName": "Melnikov",
     "email": "dmitri807@gmail.com",
     "whoami": "Software Engineer",
+    "github": "https://github.com/dmitrime",
+    "linkedin": "https://www.linkedin.com/in/dmitri-melnikov-24a55a9ao",
     "education": [
         {
             "from": "September 2009",
@@ -102,7 +104,6 @@
         }
     ],
     "skills": {
-        "languages": ["Python", "C", "C++", "Java", "Javascript", "R", "Go", "Shell", "Haskell"],
-        "github": "https://github.com/dmitrime"
+        "languages": ["Python", "Go", "Javascript", "C", "C++", "Shell", "Java", "R", "Haskell"]
     }
 }
