@@ -10,7 +10,7 @@
     <!-- CSS  -->
     <link href="{{ url_for('static', filename='css/style.css') }}" type="text/css" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/materialize.css') }}" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:200"/>
+    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:200"/>-->
 </head>
 <body id="top" class="scroll-area" data-spy="scroll" data-offset="1000">
 
@@ -49,6 +49,12 @@
         <h3 class="text_hh">
             <span><b> {{ whoami }} </b></span> 
         </h3>
+        <!--<img style="border-radius: 50%; width: 250px; height: 250px;" src="{{ url_for('static', filename='img/me.png') }}">-->
+        <p>
+            {% for l in skills.languages %}
+                <div class="chip"> {{ l }} </div>
+            {% endfor %}
+        </p>
     </div>
     </div>
 </div>
