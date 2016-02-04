@@ -31,7 +31,8 @@
 .text_h {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 15% 0;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 2%;
     font-size: 6.0em;
     font-weight: 100;
     color:white;
@@ -244,6 +245,14 @@ nav ul a {
 .authors {
     font-style: italic;
     padding-top: 2%;
+}
+
+.photo {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 input, textarea {

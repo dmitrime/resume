@@ -3,6 +3,7 @@
     "lastName": "Melnikov",
     "email": "dmitri807@gmail.com",
     "whoami": "Software Engineer",
+    "photo": "me.jpg",
     "github": "https://github.com/dmitrime",
     "linkedin": "https://www.linkedin.com/in/dmitri-melnikov-24a55a9a",
     "education": [
@@ -104,6 +105,7 @@
         }
     ],
     "skills": {
-        "languages": ["Python", "Go", "Javascript", "C", "C++", "Shell", "Java", "R", "Haskell"]
+        "languages": ["Python", "Go", "Javascript", "C", "C++", "Shell", "Java", "R", "Haskell"],
+        "buzzwords": ["AWS", "MapReduce", "Docker", "Big Data", "Machine Learning", "Information Retrieval"]
     }
 }

@@ -46,19 +46,26 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <div class="center header cd-headline">
-        <h1 class="text_h">
-            <span> {{ firstName }} </span> 
-            <span><b> {{ lastName }} </b></span> 
-        </h1>
-        <h3 class="text_hh">
-            <span><b> {{ whoami }} </b></span> 
-        </h3>
-        <p>
-            {% for l in skills.languages %}
-                <div class="chip blue-text white"> {{ l }} </div>
-            {% endfor %}
-        </p>
-        <p>
+
+            <img class="photo" src="{{ url_for('static', filename='img/') }}{{ photo }}">
+
+            <h1 class="text_h">
+                <span> {{ firstName }} </span>
+                <span><b> {{ lastName }} </b></span>
+            </h1>
+            <h3 class="text_hh">
+                <span><b> {{ whoami }} </b></span>
+            </h3>
+            <p>
+                {% for l in skills.languages %}
+                    <div class="chip blue-text white"> {{ l }} </div>
+                {% endfor %}
+            </p>
+            <p>
+                {% for b in skills.buzzwords %}
+                    <div class="chip blue-text white"> {{ b }} </div>
+                {% endfor %}
+            </p>
     </div>
     </div>
 </div>
